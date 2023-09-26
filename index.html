@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Karla:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/style.css">
+
+    <title>PokeDexplorer</title>
+</head>
+
+<body>
+    <header class="header">
+        <a href="/index.html"><img src="./assets/logo.svg" alt="Logo PokeDexplorer" class="header__logo"></a>
+        <div class="header__nav">
+            <a href="#" class="header__nav-link">Sobre</a>
+            <a href="#" class="header__nav-link">Pokémon</a>
+            <a href="#" class="header__nav-link">Galeria</a>
+        </div>
+    </header>
+
+    <section class="search">
+        <h2 class="search__title">Encontre seu Pokémon Favorito</h2>
+        <p class="search__text">Digite o nome do seu Pokémon preferido e saiba tudo o que você precisa saber para se
+            tornar um verdadeiro Treinador Pokémon.</p>
+        <input type="search" placeholder="Pesquisar Pokémon" id="search__input" class="search__input">
+    </section>
+
+    <section class="searchResult"></section>
+
+    <section class="details"></section>
+
+    <section class="pokemon"></section>
+
+    <section class="load">
+        <button class="load__btn">Carregar mais Pokemon</button>
+    </section>
+
+    <footer class="footer">
+        <div class="footer__container1">
+            <img src="/assets/logo.svg" alt="Logo PokeDexplorer" class="footer__container1-logo">
+        </div>
+        <div class="footer__container2">
+            <a href="#"><img src="/assets/facebook.svg" alt="Logo do facebook"></a>
+            <a href="#"><img src="/assets/instagram.svg" alt="Logo do instagram"></a>
+            <a href="#"><img src="/assets/youtube.svg" alt="Logo do youtube"></a>
+        </div>
+    </footer>
+
+    <script src="/index.js"></script>
+</body>
+
+</html>

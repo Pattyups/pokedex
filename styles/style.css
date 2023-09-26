@@ -1,0 +1,41 @@
+@import url(../styles/header.css);
+@import url(../styles/search.css);
+@import url(../styles/searchResult.css);
+@import url(../styles/details.css);
+@import url(../styles/pokemon.css);
+@import url(../styles/load.css);
+@import url(../styles/footer.css);
+
+:root {
+    /* Colors */
+    --bg-color: #181717;
+    --light-yellow-color: #E9E8D1;
+    --red-color: #B53D3D;
+    --blue-color: #3D5FB5;
+    --white-color: #ffffff;
+
+    /* Fonts */
+    --primary-font: 'Karla', sans-serif;
+    --secondary-font: 'Fjalla One', sans-serif;
+}
+
+
+body {
+    background-color: var(--bg-color);
+    font-family: var(--primary-font);
+    font-size: 1rem;
+    color: var(--bg-color);
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    flex: 1;
+}
+
+section {
+    flex-grow: 1;
+}
+
+footer {
+    flex-shrink: 0;
+}

@@ -1,0 +1,10 @@
+<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="15" cy="15" r="15" fill="url(#paint0_linear_1_323)"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M21.5918 15C21.5918 18.6405 18.6405 21.5918 15 21.5918C11.3595 21.5918 8.4082 18.6405 8.4082 15C8.4082 11.3595 11.3595 8.4082 15 8.4082C18.6405 8.4082 21.5918 11.3595 21.5918 15ZM18.7667 15C18.7667 17.0803 17.0803 18.7667 15 18.7667C12.9197 18.7667 11.2333 17.0803 11.2333 15C11.2333 12.9197 12.9197 11.2333 15 11.2333C17.0803 11.2333 18.7667 12.9197 18.7667 15Z" fill="white"/>
+<defs>
+<linearGradient id="paint0_linear_1_323" x1="0.193393" y1="0" x2="0.193393" y2="29.6132" gradientUnits="userSpaceOnUse">
+<stop stop-color="#A3A49E"/>
+<stop offset="1" stop-color="#9298A4"/>
+</linearGradient>
+</defs>
+</svg>

@@ -1,0 +1,11 @@
+.searchResult {
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+    .searchResult {
+        padding: 2em;
+    }
+}

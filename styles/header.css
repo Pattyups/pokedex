@@ -1,0 +1,49 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+}
+
+.header__logo {
+    width: 30vw;
+}
+
+.header__nav-link {
+    color: var(--light-yellow-color);
+    font-weight: 700;
+    text-decoration: none;
+    padding: 0.5em;
+}
+
+@media screen and (min-width: 768px) {
+    .header {
+        padding: 1em 2em;
+    }
+
+    .header__logo {
+        width: 20vw;
+    }
+
+    .header__nav-link {
+        font-size: 1.125rem;
+    }
+
+    .header__nav-link:hover {
+        color: var(--blue-color);
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .header {
+        padding: 0.5em 3em;
+    }
+
+    .header__logo {
+        max-width: 15vw;
+    }
+
+    .header__nav-link {
+        font-size: 1.5rem;
+    }
+}
